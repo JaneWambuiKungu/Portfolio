@@ -1,52 +1,65 @@
+/* Global Styles */
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
-  }
-  
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  font-family: comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
   header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    font-size: 24px;
   }
-  
-  header h1 {
-    margin: 0;
+
+  main {
+    margin: 10px;
   }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
+
   section {
-    padding: 20px;
+    padding: 10px;
   }
-  
-  section h2 {
-    margin-top: 0;
+
+  h1 {
+    font-size: 28px;
   }
-  
-  article h3 {
-    margin-top: 0;
+
+  h2 {
+    font-size: 20px;
   }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
+}
