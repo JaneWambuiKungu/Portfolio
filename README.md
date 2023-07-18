@@ -11,12 +11,12 @@ Jane Kungu
 - GITHUB
 - GIT
 ### PROJECT SETUP
-- CLONE PROJECT FROM https://github.com/JaneWambuiKungu/Portfolio
+- CLONE PROJECT FROM LINK [REPOSITORY](https://github.com/JaneWambuiKungu/Portfolio)
 - OPEN ON VS CODE
 ### KNOWN BUGS
 - NONE 
 ### LIVE LINK 
-- https://janewambuikungu.github.io/Portfolio/
+- [live](https://janewambuikungu.github.io/Portfolio/)
 ### LICENCE
 - JANE 
 
